@@ -55,6 +55,8 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
+CORS_ALLOW_ALL_ORIGINS = True #enables access from different ports
+
 ROOT_URLCONF = 'djangoleaderboard.urls'
 
 TEMPLATES = [
