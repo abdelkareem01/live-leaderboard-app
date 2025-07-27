@@ -1,0 +1,19 @@
+- python -m venv .venv ===> create venv directory
+
+- .venv\Scripts\activate ===> open venv
+
+- pip install django django-ninja ===> installs and initializes django on directory if not already there
+
+- manually create and cd to "src" folder
+
+- django-admin startproject projname . ===> initializes the django project with the projname
+
+- cd back to project root
+
+- pip install rav
+
+- create rav.yaml and add server command related info to shortcut it with rav commands(use the one in this project as template)
+
+- rav run server ===> runs the current django project on localhost
+
+- go to root folder of project to initialize frontend
